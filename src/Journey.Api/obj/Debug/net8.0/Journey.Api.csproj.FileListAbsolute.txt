@@ -38,3 +38,4 @@ C:\workspace\Journey\Journey\src\Journey.Api\obj\Debug\net8.0\refint\Journey.Api
 C:\workspace\Journey\Journey\src\Journey.Api\obj\Debug\net8.0\Journey.Api.pdb
 C:\workspace\Journey\Journey\src\Journey.Api\obj\Debug\net8.0\Journey.Api.genruntimeconfig.cache
 C:\workspace\Journey\Journey\src\Journey.Api\obj\Debug\net8.0\ref\Journey.Api.dll
+C:\workspace\Journey\Journey\src\Journey.Api\obj\Debug\net8.0\Journey.Api.sourcelink.json

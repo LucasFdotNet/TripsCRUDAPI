@@ -1,4 +1,5 @@
-﻿using Journey.Communication.Requests;
+﻿using Journey.Application.UseCases.Trips.Register;
+using Journey.Communication.Requests;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Journey.Api.Controllers;
@@ -11,8 +12,9 @@ namespace Journey.Api.Controllers;
         [HttpPost]
         public IActionResult Register([FromBody] RequestRegisterTripJson request)
         {
-            
-            
+            var useCase = new RegisterTripUseCase();
+            useCase.Execute(request);
+
 
             return Created(); //204
         }
